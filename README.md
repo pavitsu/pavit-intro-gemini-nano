@@ -18,7 +18,7 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
 
     ```javascript
     const availability = await LanguageModel.availability({languages: ["en"]});
-    console.log(availability); // Returns "readily", "after-download", or "no"
+    console.log(availability); // Returns "downloadable", "unavailable"
     ```
 
 2. **Initialize and Monitor**: Initialize the session and monitor the download progress.
