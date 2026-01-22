@@ -1,3 +1,10 @@
+---
+marp: true
+theme: default
+size: 16:9
+class: invert
+---
+
 # Introduction to Gemini Nano
 
 ## Enabled Experimental Features
@@ -33,6 +40,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     });
     ```
 
+---
+
 3. **Verify Status**: Check if the [model status](https://developer.chrome.com/docs/ai/get-started#model_download) has changed to available.
 
     ```javascript
@@ -40,6 +49,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     const newAvailability = await LanguageModel.availability({languages: ["en"]});
     console.log(newAvailability);
     ```
+
+---
 
 ## Text
 
@@ -65,6 +76,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     });
     ```
 
+---
+
 2. **Send Prompt (Standard)**: You can send a prompt and await the full response.
 
     ```javascript
@@ -87,6 +100,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     }
     ```
 
+---
+
 3. **Send Prompt (Streaming)**: Alternatively, handle the return as a streaming chunk.
 
     ```javascript
@@ -107,6 +122,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
       }
     }
     ```
+
+---
 
 ## Image
 
@@ -131,6 +148,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     const blob = await imageResponse.blob();
     ```
 
+---
+
 3. **Send Prompt**:
 
     ```javascript
@@ -149,6 +168,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     console.log(response);
     ```
 
+---
+
 4. **Continue Conversation**: You can continue prompting on the same session.
 
     ```javascript
@@ -166,11 +187,15 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     console.log(followUpResponse);
     ```
 
+---
+
 5. **Check Quota**: Check how much context window quota is left.
 
     ```javascript
     console.log(`${session.inputUsage}/${session.inputQuota}`);
     ```
+
+---
 
 ## Audio
 
@@ -193,6 +218,9 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     const response = await fetch(audioUrl);
     const audioBlob = await response.blob();
     ```
+
+
+---
 
 3. **Send Prompt**:
 
