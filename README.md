@@ -11,7 +11,7 @@ class: invert
 
 All of the built-in AI APIs are available on **localhost** in Chrome. Set the following flags to **Enabled**:
 
-* `chrome://flags#prompt-api-for-gemini-nano`
+* `chrome://flags/#prompt-api-for-gemini-nano`
 * `chrome://flags/#prompt-api-for-gemini-nano-multimodal-input`
 * `chrome://flags/#optimization-guide-on-device-model`
 
