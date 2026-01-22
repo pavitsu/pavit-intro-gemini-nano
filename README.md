@@ -5,7 +5,8 @@ size: 16:9
 class: invert
 ---
 
-# Introduction to Gemini Nano
+# Introduction to Gemini Nano 
+[Google Slide](https://docs.google.com/presentation/d/1qUzw6f-6MR655ZAzR84vvilfACXLKCZx0-0DVAde_-0/edit?usp=sharing)
 
 ## Enabled Experimental Features
 
