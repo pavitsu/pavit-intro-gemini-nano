@@ -29,6 +29,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     console.log(availability); // Returns "downloadable", "unavailable"
     ```
 
+
+
 2. **Initialize and Monitor**: Initialize the session and monitor the download progress.
 
     ```javascript
@@ -40,6 +42,8 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
       },
     });
     ```
+
+   Gemini Nano's exact size may vary as the browser updates the model. To determine the current size, visit `chrome://on-device-internals`.
 
 ---
 
