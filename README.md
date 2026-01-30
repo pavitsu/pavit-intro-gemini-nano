@@ -6,7 +6,8 @@ class: invert
 ---
 
 # Introduction to Gemini Nano 
-[Google Slide](https://docs.google.com/presentation/d/1qUzw6f-6MR655ZAzR84vvilfACXLKCZx0-0DVAde_-0/edit?usp=sharing)
+
+[Tutorial Slide](https://docs.google.com/presentation/d/1qUzw6f-6MR655ZAzR84vvilfACXLKCZx0-0DVAde_-0/edit?usp=sharing), [Use Case of Gemini Nano Slide](https://docs.google.com/presentation/d/1jItA2KFyGkLl7MIi4Pym04CrYD4uEnwxw6lnxXVh8Gw/edit?usp=sharing)
 
 ## Enabled Experimental Features
 
