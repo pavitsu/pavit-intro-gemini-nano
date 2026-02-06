@@ -245,3 +245,23 @@ Then click **Relaunch** or restart Chrome. If you encounter errors, troubleshoot
     ]);
     console.log(result);
     ```
+
+---
+
+## Terminate
+
+Call `destroy()` to free resources if you no longer need a session. When a session is destroyed, it can no longer be used, and any ongoing execution is aborted.
+
+```javascript
+await session.prompt(
+  "You are a friendly, helpful assistant specialized in clothing choices."
+);
+
+session.destroy();
+
+await session.prompt(
+  "What should I wear today? It is sunny, and I am choosing between a t-shirt and a polo."
+);
+// OUTPUT : The promise is rejected with an error explaining that
+// the session is destroyed.
+```
